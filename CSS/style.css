@@ -2,11 +2,20 @@ body {
   background-color: #fff3e0; /* Light peach background */
 }
 
-
+.btn-submit {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+}
 .bookmark-body h2 {
     font-family: "Righteous", cursive;
     font-size: 25px;
     background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 main h1 {
     font-size: 50px;
@@ -36,7 +45,22 @@ main h1::before {
     border-color: #352e28;
 }
 
-
+.btn-delete {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #eb1d36;
+    --bs-btn-border-color: #eb1d36;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d30820;
+    --bs-btn-hover-border-color: #ba081d;
+}
+.btn-visit {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9eb23b;
+    --bs-btn-border-color: #9eb23b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8a9e23;
+    --bs-btn-hover-border-color: #6e8018;
+}
 .box-conent p {
     font-family: "Bree Serif", serif;
     font-size: 21px;
